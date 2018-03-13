@@ -26,3 +26,5 @@ Route::group(['prefix' => 'test'], function () {
 });
 
 Route::get('member/info', ['uses' => 'MemberController@info']);
+
+Route::get('test1', ['uses' => 'StudentController@test1']);
